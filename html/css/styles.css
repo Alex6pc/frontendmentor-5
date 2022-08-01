@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:wght@300;400;500;600&family=Space+Grotesk:wght@300&display=swap');
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%); 
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue:hsl(218, 44%, 22%);
+    
+}
+*{  
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--Light-gray);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.mainContainer{
+    margin: auto 0;
+    max-width: 350px;
+    margin: 0 auto;
+    background-color: var(--White);
+    border-radius: 17px;
+}
+
+.card{  
+    padding: 20px;
+}
+.barPhoto{
+    border-radius: 10px;
+    width: 100%;
+}
+.textContainer{
+    padding: 30px 15px;
+    text-align: center;
+}
+.textContainer h2{
+    padding-bottom: 20px;
+    color: var(--Dark-blue);
+}
+p{
+    color:var(--Grayish-blue);
+    font-size: 13px;
+}
+
